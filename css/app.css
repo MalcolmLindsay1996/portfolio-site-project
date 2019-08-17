@@ -1,0 +1,11 @@
+div {
+    border: 1px dashed black;
+}
+
+.main-container {
+    position: absolute;
+    top: 60px;
+    right: 140px;
+    left: 280px;
+    bottom: 0px;
+}
