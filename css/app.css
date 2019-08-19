@@ -24,14 +24,25 @@ img {
     max-height: 100%;
 }
 
-.Featured-work-main-content {
+.Feature-boxes {
     display: flex;
     justify-content: space-between;
 }
 
+.Feature-boxes h3{
+    text-align: center;
+}
+
+.Featured-work-box{
+    width: 32%;
+    text-align: center;  
+}
+            
 .work-desc {
     display: flex;
+    /* display: block; */
+    /* text-align: center; */
     justify-content: center;
-    display: block;
-    text-align: center;
+    align-items: center;
+    flex-direction: column;
 }
