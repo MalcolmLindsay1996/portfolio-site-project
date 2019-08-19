@@ -1,6 +1,11 @@
-div {
+/* div {
     border: 1px dashed black;
-}
+} */
+
+.header {
+    border-bottom: 2px solid black;
+  }
+  
 
 .main-container {
     position: absolute;
@@ -10,7 +15,7 @@ div {
     bottom: 0px;
 }
 
-.main-heading-container h1, h3 {
+.header-text{
     text-align: right;
     position: relative;
 }
