@@ -4,18 +4,30 @@
 
 .header {
     border-bottom: 2px solid black;
-  }
-  
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
 
-.main-container {
-    position: absolute;
+#html-tags {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}    
+
+body {
+    /* position: absolute;
     top: 60px;
     right: 140px;
     left: 275px;
-    bottom: 0px;
+    bottom: 0px; */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem .5rem 0rem;
+    font-family:  sans-serif , Arial;
 }
 
-.header-text{
+.header-text {
     text-align: right;
     position: relative;
 }
@@ -34,19 +46,17 @@ img {
     justify-content: space-between;
 }
 
-.Feature-boxes h3{
+.Feature-boxes h3 {
     text-align: center;
 }
 
-.Featured-work-box{
+.Featured-work-box {
     width: 32%;
-    text-align: center;  
+    text-align: center;
 }
-            
+
 .work-desc {
     display: flex;
-    /* display: block; */
-    /* text-align: center; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
